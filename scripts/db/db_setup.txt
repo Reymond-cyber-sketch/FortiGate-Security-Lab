@@ -1,0 +1,20 @@
+DATABASE SERVER - FORTIGATE SECURITY LAB
+
+Image:
+mariadb:11.4
+
+Database:
+fortigate_lab
+
+Application User:
+webapp
+
+Network:
+IP: 10.24.96.146/28
+Gateway: 10.24.96.145
+
+Service:
+MariaDB / MySQL
+TCP Port: 3306
+
+Credentials are intentionally omitted from this repository.
