@@ -1,0 +1,21 @@
+FORTIGATE SECURITY LAB
+Matricula: 2024-0963
+
+USERS
+Network: 10.24.96.0/25
+Gateway: 10.24.96.1
+VLAN: 10
+DHCP: FortiGate
+USER-PC: 10.24.96.12/25
+
+WEB
+Network: 10.24.96.128/28
+Server: 10.24.96.130
+Gateway: 10.24.96.129
+Service: HTTPS TCP/443
+
+DATABASE
+Network: 10.24.96.144/28
+Server: 10.24.96.146
+Gateway: 10.24.96.145
+Service: MariaDB TCP/3306
